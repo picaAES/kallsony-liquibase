@@ -28,3 +28,11 @@ alter table person add country varchar(2)
 --rollback ALTER TABLE person DROP COLUMN state;
 alter table person add state varchar(2)
 
+--changeset christine:5
+--rollback ALTER TABLE person DROP COLUMN country;
+alter table person add age varchar(10)
+
+--changeset christine:6
+--rollback ALTER TABLE company DROP COLUMN codcity;
+alter table company2 add codcity varchar(3)
+
