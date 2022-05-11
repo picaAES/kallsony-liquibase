@@ -14,4 +14,3 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           url: ${{ secrets.URL }}
-          logLevel: ${{ secrets.LOGLEVEL }}
