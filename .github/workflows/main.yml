@@ -14,4 +14,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           url: ${{ secrets.URL }}
-          driver: ${{ secrets.DRIVER }}
+          logLevel: ${{ secrets.LOGLEVEL }}
