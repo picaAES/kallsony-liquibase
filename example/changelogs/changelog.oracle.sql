@@ -34,5 +34,5 @@ alter table person add age varchar(10)
 
 --changeset christine:6
 --rollback ALTER TABLE company DROP COLUMN codcity;
-alter table company2 add codcity varchar(3)
+alter table company add codcity varchar(3)
 
