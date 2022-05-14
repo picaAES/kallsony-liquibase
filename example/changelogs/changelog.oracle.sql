@@ -1,6 +1,6 @@
 --changeset Johan:9
 CREATE TABLE address (
-  id int NOT NULL,
+  id int,
   address varchar(80) NOT NULL,
   status int NOT NULL,
   cityCode int NOT NULL,
