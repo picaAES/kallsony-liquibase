@@ -13,4 +13,4 @@ CREATE TABLE address (
   CONSTRAINT FK_city_address FOREIGN KEY (cityCode) REFERENCES city (id),
   CONSTRAINT FK_state_address FOREIGN KEY (stateCode) REFERENCES state (id),
   CONSTRAINT FK_user_address FOREIGN KEY (userId) REFERENCES user (id)
-) 
+) ;
